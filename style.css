@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.profile{
+    border-radius: 200%;
+}
+
+.nav-bg{
+    background: linear-gradient(to right, #01634A, #4D8576);
+
+}
+
+.nav-link{
+    font-size: 12px;
+}
+
+header{
+    font-size: 10px;
+}
+
+.logo-title{
+    color: #01634A;
+}
+
+@media (max-width: 576px) {
+    .logo {
+        margin-left: 0;
+    }
+
+    .profile-text {
+        margin-right: 0;
+        font-size: 12px; 
+    }
+
+    .logo-title {
+        font-size: 16px; 
+    }
+
+    .top-nav {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar {
+        padding: 30px 0;
+        font-size: 15px;
+    }
+
+    .navbar-nav {
+        flex-direction: column; 
+        align-items: center; 
+        width: 100%; 
+    }
+
+    .navbar-nav .nav-item:first-child .nav-link {
+        margin-right: 100px; 
+    }
+
+    .navbar-nav .nav-item {
+        width: 100%; 
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        margin: 0; 
+        padding: 10px 0; 
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+}
